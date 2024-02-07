@@ -196,10 +196,13 @@ footer{
         background-repeat: no-repeat;
     }
     .cabecario{
-        padding: 5%; 
+        padding: 1rem; 
+        gap:1rem;
     }
     .cabecario__menu{
+        flex-wrap: wrap;
         justify-content: center;
+        gap:0.5rem;
     }
     .apresentacao{
         flex-direction: column;
@@ -215,12 +218,22 @@ footer{
         display: flex;
         align-items: center;
         flex-direction:column;
-        gap: 10px;
-        padding: 1rem;
+        gap:1rem;
+        padding: 0.5rem;
     }
 
     .apresentacao__navegacao{
         width: 80%;
+        padding: 0.4rem 1rem;
+        
+    }
+
+    .img__e__links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    
     }
 
 }
