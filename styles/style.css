@@ -193,7 +193,7 @@ footer{
 @media (max-width: 1100px){
     body{
         background-image: url("../assets/bg2.png");
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
