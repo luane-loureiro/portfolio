@@ -22,8 +22,8 @@ body{
     background-color: var(--cor__clara);
     background-position: top;
     background-image: url("../assets/bg.png");
-    background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--cor__escura);
     font-family: var(--fonte-Principal);
     font-weight: 600;
@@ -32,7 +32,8 @@ body{
 
 
 .cabecario{
-    padding: 2% 0px 0px 15%;    
+    padding: 2% 0px 0px 15%; 
+
 }
 
 
@@ -148,7 +149,7 @@ body{
     justify-content: center;
     gap: 2rem;
     background: var(--cor__media_1); 
-    border:0.1rem solid var(--cor__media_2);
+    border:0.2rem solid var(--cor__media_2);
     width: 40%;
     text-align: center;
     border-radius: 1rem;
@@ -159,7 +160,7 @@ body{
 
 .apresentacao__navegacao:hover{
     background:var(--cor__media_1);
-    border: 0.1rem solid var(--cor__escura);
+    border: 0.2rem solid var(--cor__escura);
 }
 
 .apresentacao li{
@@ -192,8 +193,9 @@ footer{
 @media (max-width: 1100px){
     body{
         background-image: url("../assets/bg2.png");
-        background-size:cover;
+        background-size:contain;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     .cabecario{
         padding: 1rem; 
