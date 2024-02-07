@@ -148,7 +148,7 @@ body{
     justify-content: center;
     gap: 2rem;
     background: var(--cor__media_1); 
-    border: solid var(--cor__media_2);
+    border:0.1rem solid var(--cor__media_2);
     width: 40%;
     text-align: center;
     border-radius: 1rem;
@@ -159,7 +159,7 @@ body{
 
 .apresentacao__navegacao:hover{
     background:var(--cor__media_1);
-    border: solid var(--cor__escura);
+    border: 0.1rem solid var(--cor__escura);
 }
 
 .apresentacao li{
